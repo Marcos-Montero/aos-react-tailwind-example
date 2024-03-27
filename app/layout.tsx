@@ -32,12 +32,12 @@ export default function RootLayout({
           >
             Scroll!
           </h2>
-          <Scroll size={48} className="animate-pulse duration-1000" />
+          <Scroll size={48} className="-rotate-2" />
         </div>
         <div className="w-60 h-20 blur-xl  fixed bottom-12 -right-10 rounded-full rotate-12" />
         <div className="fixed bottom-4 right-10 flex gap-2">
           <h2 className={cn("text-white text-lg ", fonts.caveat.className)}>
-            By Marcos Montero{" "}
+            By Marcos Montero
           </h2>
         </div>
       </body>
