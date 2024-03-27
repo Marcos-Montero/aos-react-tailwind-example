@@ -37,4 +37,5 @@ const config = {
   },
   plugins: [tailwindCSSAnimate, inview],
 };
+
 export default config;

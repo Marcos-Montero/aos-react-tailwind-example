@@ -65,6 +65,9 @@
     --ring: 212.7 26.8% 83.9%;
   }
 }
+body {
+  background: rgb(1, 3, 16);
+}
 .bg {
   background-color: #3e3eff;
   z-index: -1;
@@ -73,9 +76,10 @@
   height: 100vh;
   position: absolute;
   top: 0;
+  filter: blur(0.2rem);
   background: linear-gradient(135deg, #f7e14555 25%, transparent 25%) -26px 0/
       52px 52px,
-    linear-gradient(225deg, #f7e145 25%, transparent 25%) -26px 0/ 52px 52px,
-    linear-gradient(315deg, #f7e14555 25%, transparent 25%) 0px 0/ 52px 52px,
-    linear-gradient(45deg, #f7e145 25%, #3e3eff 25%) 0px 0/ 52px 52px;
+    linear-gradient(225deg, #cdcdcd 25%, transparent 25%) -26px 0/ 52px 52px,
+    linear-gradient(315deg, #ffffffd0 25%, transparent 25%) 0px 0/ 52px 52px,
+    linear-gradient(45deg, #a1a1a1 25%, #2d004d 25%) 0px 0/ 52px 52px;
 }
